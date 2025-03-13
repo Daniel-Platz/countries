@@ -33,7 +33,6 @@ public class CountryRepository {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return countries;
     }
 }
